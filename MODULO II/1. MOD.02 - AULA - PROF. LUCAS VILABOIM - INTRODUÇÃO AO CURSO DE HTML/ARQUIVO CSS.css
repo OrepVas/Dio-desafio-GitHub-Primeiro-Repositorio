@@ -1,0 +1,21 @@
+body {
+	background:olive;
+	font-family: Verdana;
+	width:900px;
+}
+
+.post {
+	background:#FFF;
+	padding: 10px;
+	border: 8px; solid:#000; 
+	margin: 10px;
+}
+
+.contacts_list {
+	list-style-type: none;
+	padding-left: 15px;
+}
+
+font-transform
+font-family
+font-weight

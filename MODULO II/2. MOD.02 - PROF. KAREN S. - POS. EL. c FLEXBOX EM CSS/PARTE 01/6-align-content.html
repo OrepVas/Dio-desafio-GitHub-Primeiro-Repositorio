@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamentos - align content</title>
+
+    <style>
+        .container{
+            height: 400px;
+            max-width: 300px;
+            margin: 0 auto;
+            display: flex;
+            flex-wrap: wrap;
+            border: 5 px solid black;
+        }
+
+        .item{
+            background-color: burlywood;
+            padding: 0 5px;
+            margin: 5px;
+            flex: 1;
+            text-align: center;
+            color: white;
+           
+        }
+
+        .stretch{
+            align-content: stretch;
+        }
+
+        .center{
+            align-content: center;
+        }
+
+        .flex-start{
+            align-content: flex-start;
+        }
+
+        .flex-end{
+            align-content: flex-end;
+        }
+
+        .space-around{
+            align-content: space-around;
+        }
+
+        .space-between{
+            align-content: space-between;
+        }
+    </style>
+</head>
+<body>
+    <p>stretch</p>
+    <div class="container stretch">
+        <div class="item">Can you hel? Please email us with details if you can help.</div>
+        <div class="item">Sed ut perspicirem aperiam, ant explicabo.</div>
+        <div class="item">Ut enim aduis nostrum exerci suscipit ex ea commodi consequatur?</div>
+        <div class="item">"At vero eos edipraesrrupti quos domolestias excepturi</div>
+        <div class="item">On the  demoralizedthe momeso blinded by desire,</div>
+        <div class="item">Nam liberat facere possimus, omnis dolor repellendus.</div>
+        <div class="item">LoreThe Extremes of Good and Evil) by Ciceroen in 45 BC.</div>
+    </div>
+
+    <p>center</p>
+    <div class="container center">
+        <div class="item">Can you hel? Please email us with details if you can help.</div>
+        <div class="item">Sed ut perspicirem aperiam, ant explicabo.</div>
+        <div class="item">Ut enim aduis nostrum exerci suscipit ex ea commodi consequatur?</div>
+        <div class="item">"At vero eos edipraesrrupti quos domolestias excepturi</div>
+        <div class="item">On the  demoralizedthe momeso blinded by desire,</div>
+        <div class="item">Nam liberat facere possimus, omnis dolor repellendus.</div>
+        <div class="item">LoreThe Extremes of Good and Evil) by Ciceroen in 45 BC.</div>
+    </div>
+
+    <p>flex-start/p>
+    <div class="container flex-start">
+        <div class="item">Can you hel? Please email us with details if you can help.</div>
+        <div class="item">Sed ut perspicirem aperiam, ant explicabo.</div>
+        <div class="item">Ut enim aduis nostrum exerci suscipit ex ea commodi consequatur?</div>
+        <div class="item">"At vero eos edipraesrrupti quos domolestias excepturi</div>
+        <div class="item">On the  demoralizedthe momeso blinded by desire,</div>
+        <div class="item">Nam liberat facere possimus, omnis dolor repellendus.</div>
+        <div class="item">LoreThe Extremes of Good and Evil) by Ciceroen in 45 BC.</div>
+    </div>
+
+    <p>flex-end</p>
+        <div class="container flex-end">
+            <div class="item">Can you hel? Please email us with details if you can help.</div>
+            <div class="item">Sed ut perspicirem aperiam, ant explicabo.</div>
+            <div class="item">Ut enim aduis nostrum exerci suscipit ex ea commodi consequatur?</div>
+            <div class="item">"At vero eos edipraesrrupti quos domolestias excepturi</div>
+            <div class="item">On the  demoralizedthe momeso blinded by desire,</div>
+            <div class="item">Nam liberat facere possimus, omnis dolor repellendus.</div>
+            <div class="item">LoreThe Extremes of Good and Evil) by Ciceroen in 45 BC.</div>
+        </div>
+
+        <p>space-around</p>
+        <div class="container space-around">
+            <div class="item">Can you hel? Please email us with details if you can help.</div>
+            <div class="item">Sed ut perspicirem aperiam, ant explicabo.</div>
+            <div class="item">Ut enim aduis nostrum exerci suscipit ex ea commodi consequatur?</div>
+            <div class="item">"At vero eos edipraesrrupti quos domolestias excepturi</div>
+            <div class="item">On the  demoralizedthe momeso blinded by desire,</div>
+            <div class="item">Nam liberat facere possimus, omnis dolor repellendus.</div>
+            <div class="item">LoreThe Extremes of Good and Evil) by Ciceroen in 45 BC.</div>
+        </div>
+
+        <p>space-between</p>
+        <div class="container space-between">
+            <div class="item">Can you hel? Please email us with details if you can help.</div>
+            <div class="item">Sed ut perspicirem aperiam, ant explicabo.</div>
+            <div class="item">Ut enim aduis nostrum exerci suscipit ex ea commodi consequatur?</div>
+            <div class="item">"At vero eos edipraesrrupti quos domolestias excepturi</div>
+            <div class="item">On the  demoralizedthe momeso blinded by desire,</div>
+            <div class="item">Nam liberat facere possimus, omnis dolor repellendus.</div>
+            <div class="item">LoreThe Extremes of Good and Evil) by Ciceroen in 45 BC.</div>
+        </div>
+    </body>
+
+
+
+</html>

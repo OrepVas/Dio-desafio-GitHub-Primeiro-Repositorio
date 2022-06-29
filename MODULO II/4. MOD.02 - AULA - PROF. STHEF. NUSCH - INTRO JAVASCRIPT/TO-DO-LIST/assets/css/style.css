@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600&display=swap');
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+    
+}
+
+footer{
+    border: 2px solid black;
+    background-color: rgb(177, 225, 255);
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+footer .footer{
+    justify-content: flex-start;
+    color: black;
+}
